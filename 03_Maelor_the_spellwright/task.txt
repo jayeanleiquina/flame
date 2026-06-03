@@ -2,14 +2,18 @@
 
 PREDICT:
 What will the page look like? Where will it appear?
+The first heading will be red (probably the character's name), there's gonna be a profile card with a yellow background. the profile card will also have a brown border.  
 
 RUN:
 Check that the image shows up and fits inside the card.
 
 INVESTIGATE:
 - What does max-width do?
+max-width allows the size to not be bigger than the set size
 - What’s the difference between margin and padding?
+margin is the outer space of an element and outside the border while padding is the inner space of an element and inside the border 
 - What are the . and # doing?
+The dot (.) targets classes and the hastag is IDs
 
 MODIFY:
 - Round the image corners more

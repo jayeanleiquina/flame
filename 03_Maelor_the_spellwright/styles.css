@@ -22,7 +22,7 @@ h1 {
 
 .profile-img {
   max-width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
   margin-bottom: 16px;
 }
 
@@ -33,4 +33,8 @@ ul {
 
 li {
   margin-bottom: 8px;
+}
+
+.card-element {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
 }
