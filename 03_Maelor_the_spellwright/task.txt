@@ -13,7 +13,7 @@ max-width allows the size to not be bigger than the set size
 - What’s the difference between margin and padding?
 margin is the outer space of an element and outside the border while padding is the inner space of an element and inside the border 
 - What are the . and # doing?
-The dot (.) targets classes and the hastag is IDs
+The dot (.) targets classes and the hashtag is for IDs
 
 MODIFY:
 - Round the image corners more
