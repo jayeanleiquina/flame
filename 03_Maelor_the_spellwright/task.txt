@@ -1,11 +1,13 @@
 🟧 PRIMM: Style Your Candidate
 
 PREDICT:
+Before opening the page. Read the code and answer below:
 What will the page look like? Where will it appear?
 The first heading will be red (probably the character's name), there's gonna be a profile card with a yellow background. the profile card will also have a brown border.  
 
 RUN:
 Check that the image shows up and fits inside the card.
+What did you see? Were you right or wrong?
 
 INVESTIGATE:
 - What does max-width do?
