@@ -4,7 +4,10 @@ This is your first PRIMM task. We’re working step-by-step to understand how in
 
 🟡 PREDICT  
 What do you think will happen when you type your name and click the button?
+"Welcome, {your name}"
 What part of the code do you think makes that happen?
+  let name = nameInput.value;
+  output.innerText = "Welcome, " + name;
 
 🟢 RUN  
 Go ahead and try it. Enter your name, hit the button, and see what shows up.
@@ -12,7 +15,13 @@ Go ahead and try it. Enter your name, hit the button, and see what shows up.
 🔵 INVESTIGATE  
 Take a look at the JavaScript.  
 - Which line is grabbing your name?
+let nameInput = document.getElementById("nameInput");
 - Which line changes the message on the page?
+function sayHello() {
+  let name = nameInput.value;
+  output.innerText = "Welcome, " + name;
+}
+
 
 🟠 MODIFY  
 Change the message so it says something like:  
