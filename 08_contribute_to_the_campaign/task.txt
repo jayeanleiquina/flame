@@ -5,15 +5,30 @@ when a button is clicked. Every $10 matters!
 
 🟡 PREDICT  
 What will the total be after 3 clicks?
+30
 What happens when you reach $50? $100?
+a message will pop up
+for $50 - We've hit our first campaign milestone, for $100 - 🚀 Goal smashed! You powered this campaign!
 
 🟢 RUN  
 Click the “Give $10” button a few times and see what changes on the page.
 
+
 🔵 INVESTIGATE  
 - What variable is keeping track of the total?
+totalDonations 
 - Where is it being updated?
+line 6, document.getElementById("totalDisplay").innerText = "Total raised: $" + totalDonations;
 - How does the code decide which message to show?
+line 10 - 17, 
+  if (totalDonations >= 50 && totalDonations < 100) {
+    message = "🎉 We've hit our first campaign milestone!";
+  } else if (totalDonations >= 100) {
+    message = "🚀 Goal smashed! You powered this campaign!";
+  }
+
+  document.getElementById("thankYouMessage").innerText = message;
+}
 
 🟠 MODIFY  
 - Add a **Refund $10** button that subtracts from the total.
